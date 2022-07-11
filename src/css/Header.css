@@ -1,0 +1,37 @@
+.header-container {
+    text-align: center;
+}
+
+.heading {
+    font-size: 3rem;
+    color: #222;
+}
+
+.input-form {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.input-form input[type="text"] {
+    padding: 8px 20px;
+    background-color: transparent;
+    border-radius: 15px;
+    color: #333;
+    width: 300px;
+    font-size: 1.2rem;
+    top: 3px;
+}
+
+.submit-btn {
+    font-size: 1.1rem;
+    margin-left: 20px;
+    padding: 10px;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
