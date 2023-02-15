@@ -20,15 +20,19 @@ class Header extends Component {
           searched: true,
           foodItem: item,
         });
+        if(item){
+          document.getElementById("headerDiv").style.paddingBottom = "10px";
+        }
       };
 
     render() {
         return (
-
-            <React.Fragment>
+        
+ <React.Fragment>
+    <div className='headerDiv' id="headerDiv">
                 <div className="header-container">
-                    <h1 className="heading">Recipe Finder</h1>
-
+                    <h1 className="heading"><span className='logo'>R</span>ecipe<span className='logo'>F</span>inder</h1>
+                  
                 
                 <form className="input-form">
                     <input type="text" id="text" placeholder="Enter the Name of the Dish"></input>
@@ -43,7 +47,10 @@ class Header extends Component {
             Type a Dish Name to search for its ingredients
           </h2>
         )}
+         </div>
             </React.Fragment>
+         
+           
         )
     }
 }

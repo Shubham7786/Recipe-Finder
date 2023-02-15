@@ -75,7 +75,7 @@ class RecipeBody extends Component {
               src={meal[0].strMealThumb}
               alt={"Your meal for " + meal[0].strMeal}
             />
-            <div class="textData">
+            <div className="textData">
               <p>
                 <em>Category of Meal:</em> {meal[0].strCategory}{" "}
               </p>
